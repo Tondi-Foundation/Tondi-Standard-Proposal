@@ -51,8 +51,22 @@ TSPs are grouped into categories, depending on their scope:
 * Example:
 
   * **TSP-0001** – Support Kaspa-Compatible Payment Types with Extended Taproot
-  * **TSP-0002** – BLAKE3 adoption across protocol
-  * **TSP-0003** – ASIC-resistant PoW specification
+  * **TSP-0002** – Adoption of BLAKE3 Hash Algorithm Across the Tondi Protocol
+  * **TSP-0003** – ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching
+  * **TSP-0004** – Definition of the TSP Numbering, Categories, and Lifecycle
+  * **TSP-0005** – Biannual Evolution and the Tondi Frontier Network
+
+---
+
+## 📋 Current Proposals
+
+| Number | Title | Status | Category |
+|--------|-------|--------|----------|
+| [TSP-0001](./TSP-0001.md) | Support Kaspa-Compatible Payment Types with Extended Taproot | Draft | Core |
+| [TSP-0002](./TSP-0002.md) | Adoption of BLAKE3 Hash Algorithm Across the Tondi Protocol | Draft | Core |
+| [TSP-0003](./TSP-0003.md) | ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching | Draft | Core |
+| [TSP-0004](./TSP-0004.md) | Definition of the TSP Numbering, Categories, and Lifecycle | Draft | Governance/Meta |
+| [TSP-0005](./TSP-0005.md) | Biannual Evolution and the Tondi Frontier Network | Draft | Governance/Meta |
 
 ---
 
