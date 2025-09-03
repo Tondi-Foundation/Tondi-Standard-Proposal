@@ -50,7 +50,7 @@ TSPs are grouped into categories, depending on their scope:
 * The number does not indicate importance, only order of registration.
 * Example:
 
-  * **TSP-0001** – Taproot-only output structure
+  * **TSP-0001** – Support Kaspa-Compatible Payment Types with Extended Taproot
   * **TSP-0002** – BLAKE3 adoption across protocol
   * **TSP-0003** – ASIC-resistant PoW specification
 
