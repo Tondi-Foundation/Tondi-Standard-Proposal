@@ -55,6 +55,7 @@ TSPs are grouped into categories, depending on their scope:
   * **TSP-0003** – ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching
   * **TSP-0004** – Definition of the TSP Numbering, Categories, and Lifecycle
   * **TSP-0005** – Biannual Evolution and the Tondi Frontier Network
+  * **TSP-0006** – FUN20 — An Inscription-style Fungible Token Standard for Tondi
 
 ---
 
@@ -65,6 +66,7 @@ TSPs are grouped into categories, depending on their scope:
 | [TSP-0003](./TSP-0003.md) | ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching | Review | Core |
 | [TSP-0004](./TSP-0004.md) | Definition of the TSP Numbering, Categories, and Lifecycle | Implemented | Governance/Meta |
 | [TSP-0005](./TSP-0005.md) | Biannual Evolution and the Tondi Frontier Network | Accepted | Governance/Meta |
+| [TSP-0006](./TSP-0006.md) | FUN20 — An Inscription-style Fungible Token Standard for Tondi | Review | Applications |
 
 ---
 
