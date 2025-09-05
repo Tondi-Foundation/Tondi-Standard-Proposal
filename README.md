@@ -60,6 +60,9 @@ TSPs are grouped into categories, depending on their scope:
   * **TSP-0006** – FUN20 — An Inscription-style Fungible Token Standard for Tondi
   * **TSP-0007** – ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash)
   * **TSP-0008** – CISA (Cross-Input Signature Aggregation)
+  * **TSP-0009** – Native MuSig2 Multi-Signatures
+  * **TSP-0010** – Tondi PTLC (Point Time-Locked Contract) Contract Specification
+  * **TSP-0011** – Native MuSig2 Multi-Signatures
   * **TSP-0012** – Channel Factories for Scalable Off-Chain Payment Networks
 
 ---
@@ -74,8 +77,11 @@ TSPs are grouped into categories, depending on their scope:
 | [TSP-0004](./TSP-0004.md) | Definition of the TSP Numbering, Categories, and Lifecycle | Implemented | Governance/Meta |
 | [TSP-0005](./TSP-0005.md) | Biannual Evolution and the Tondi Frontier Network | Accepted | Governance/Meta |
 | [TSP-0006](./TSP-0006.md) | FUN20 — An Inscription-style Fungible Token Standard for Tondi | Review | Applications |
-| [TSP-0007](./TSP-0007.md) | ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash) | Review | Consensus |
+| [TSP-0007](./TSP-0007.md) | ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash) | Draft | Consensus |
 | [TSP-0008](./TSP-0008.md) | CISA (Cross-Input Signature Aggregation) | Draft | Consensus |
+| [TSP-0009](./TSP-0009.md) | Native MuSig2 Multi-Signatures | Draft | Consensus |
+| [TSP-0010](./TSP-0010.md) | Tondi PTLC (Point Time-Locked Contract) Contract Specification | Draft | Standards Track |
+| [TSP-0011](./TSP-0011.md) | Native MuSig2 Multi-Signatures | Draft | Consensus |
 | [TSP-0012](./TSP-0012.md) | Channel Factories for Scalable Off-Chain Payment Networks | Draft | Layer 2 (L2) |
 
 ---
