@@ -38,10 +38,11 @@ TSPs are grouped into categories, depending on their scope:
 
 * **Core** – Consensus rules, transaction validation, block structure, cryptography.
 * **Networking** – P2P protocols, mempool, synchronization rules.
-* **Standards / Interface** – Wallet formats, RPC APIs, contract schemas.
-* **Governance / Meta** – Processes surrounding the TSP workflow and community rules.
 * **Applications** – Proposals for RGB anchoring, Lexum contracts, AMMs, DAOs, etc.
 * **Layer 2 (L2)** – Payment channels, channel factories, off-chain scaling solutions.
+* **Process / Governance** – Processes surrounding the TSP workflow and community rules.
+* **Standards / Interface** – Wallet formats, RPC APIs, contract schemas, interoperability protocols.
+* **Informational** – Research papers, best practices, educational content.
 
 ---
 
