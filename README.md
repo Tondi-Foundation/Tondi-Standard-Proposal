@@ -46,24 +46,27 @@ TSPs are grouped into categories, depending on their scope:
 
 ---
 
-## 🏷 Numbering
+## 🏷 TSP Numbering System
 
-* TSPs are assigned sequential numbers (e.g. **TSP-0001**).
-* The number does not indicate importance, only order of registration.
-* Example:
+The TSP numbering system follows a **two-phase approach** as defined in [TSP-0004](./TSP-0004.md):
 
-  * **TSP-0001** – Support Kaspa-Compatible Payment Types with Extended Taproot
-  * **TSP-0002** – Adoption of BLAKE3 Hash Algorithm Across the Tondi Protocol
-  * **TSP-0003** – ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching
-  * **TSP-0004** – Definition of the TSP Numbering, Categories, and Lifecycle
-  * **TSP-0005** – Biannual Evolution and the Tondi Frontier Network
-  * **TSP-0006** – FUN20 — An Inscription-style Fungible Token Standard for Tondi
-  * **TSP-0007** – ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash)
-  * **TSP-0008** – CISA (Cross-Input Signature Aggregation)
-  * **TSP-0009** – Native MuSig2 Multi-Signatures
-  * **TSP-0010** – Tondi PTLC (Point Time-Locked Contract) Contract Specification
-  * **TSP-0011** – Native MuSig2 Multi-Signatures
-  * **TSP-0012** – Channel Factories for Scalable Off-Chain Payment Networks
+### **Phase 1: Early TSPs (until October 2025)**
+* **Sequential numbering**: `TSP-0001`, `TSP-0002`, `TSP-0003`, etc.
+* Reserved for **Genesis Protocol specifications** and early ecosystem standards
+* Current proposals (TSP-0001 through TSP-0012) follow this format
+
+### **Phase 2: Categorized TSPs (from October 2025 onward)**
+Proposals will use **category prefixes** + numeric sequence:
+
+* **TSP-Cxxx** → Core/Consensus (transaction validation, PoW, cryptography)
+* **TSP-Nxxx** → Networking (P2P protocols, mempool, synchronization)
+* **TSP-Axxx** → Applications (RGB, Lexum contracts, AMMs, DAOs)
+* **TSP-Lxxx** → Layer 2 (payment channels, scaling solutions)
+* **TSP-Pxxx** → Process/Governance (workflow, voting mechanisms)
+* **TSP-Sxxx** → Standards/Interface (wallet formats, APIs, schemas)
+* **TSP-Ixxx** → Informational (research papers, best practices)
+
+This ensures both **historical continuity** and **scalability** for long-term ecosystem growth.
 
 ---
 
