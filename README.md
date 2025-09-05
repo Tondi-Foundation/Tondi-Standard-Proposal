@@ -56,6 +56,9 @@ TSPs are grouped into categories, depending on their scope:
   * **TSP-0004** – Definition of the TSP Numbering, Categories, and Lifecycle
   * **TSP-0005** – Biannual Evolution and the Tondi Frontier Network
   * **TSP-0006** – FUN20 — An Inscription-style Fungible Token Standard for Tondi
+  * **TSP-0007** – ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash)
+  * **TSP-0008** – CISA (Cross-Input Signature Aggregation)
+  * **TSP-0012** – Channel Factories for Scalable Off-Chain Payment Networks
 
 ---
 
@@ -63,10 +66,15 @@ TSPs are grouped into categories, depending on their scope:
 
 | Number | Title | Status | Category |
 |--------|-------|--------|----------|
+| [TSP-0001](./TSP-0001.md) | Support Kaspa-Compatible Payment Types with Extended Taproot | Implemented | Core |
+| [TSP-0002](./TSP-0002.md) | Adoption of BLAKE3 Hash Algorithm Across the Tondi Protocol | Implemented | Core |
 | [TSP-0003](./TSP-0003.md) | ASIC-Resistant Proof-of-Work Hash Specification Based on BLAKE3 + Light Memory-Touching | Review | Core |
 | [TSP-0004](./TSP-0004.md) | Definition of the TSP Numbering, Categories, and Lifecycle | Implemented | Governance/Meta |
 | [TSP-0005](./TSP-0005.md) | Biannual Evolution and the Tondi Frontier Network | Accepted | Governance/Meta |
 | [TSP-0006](./TSP-0006.md) | FUN20 — An Inscription-style Fungible Token Standard for Tondi | Review | Applications |
+| [TSP-0007](./TSP-0007.md) | ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash) | Review | Consensus |
+| [TSP-0008](./TSP-0008.md) | CISA (Cross-Input Signature Aggregation) | Draft | Consensus |
+| [TSP-0012](./TSP-0012.md) | Channel Factories for Scalable Off-Chain Payment Networks | Draft | Layer 2 (L2) |
 
 ---
 
