@@ -98,8 +98,8 @@ The Tondi client reserves specific opcode ranges for different purposes. This al
 | Range | Count | Purpose | Status |
 |-------|-------|---------|--------|
 | `0x00-0x4F` | 80 | Basic opcodes (data push, control flow, stack operations) | ✅ Implemented |
-| `0x50-0x8A` | 59 | Extended opcodes (Bitcoin Taproot compatibility + Tondi extensions) | ✅ Implemented |
-| `0x8B-0xA5` | 27 | Numerical operations (arithmetic, comparison) | ✅ Implemented |
+| `0x50-0x8A` | 59 | Extended opcodes (Bitcoin Taproot compatibility + numeric constants + control flow + stack operations + bitwise logic) | ✅ Implemented |
+| `0x8B-0xA5` | 27 | Numerical operations (arithmetic, comparison, boolean logic) | ✅ Implemented |
 | `0xA6-0xA7` | 2 | **Available for future TSPs** | 🔄 Available |
 | `0xA8-0xB1` | 10 | Cryptographic operations (SHA256, BLAKE3, signature verification) | ✅ Implemented |
 | `0xB2-0xBF` | 14 | **TSP-allocated opcodes** | 🔄 Reserved |
