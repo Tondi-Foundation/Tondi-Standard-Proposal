@@ -89,6 +89,44 @@ This ensures both **historical continuity** and **scalability** for long-term ec
 
 ---
 
+## 🔧 Tondi Client Opcode Allocation
+
+The Tondi client reserves specific opcode ranges for different purposes. This allocation ensures compatibility with Bitcoin Taproot while providing space for Tondi-specific features.
+
+### **Opcode Range Overview**
+
+| Range | Count | Purpose | Status |
+|-------|-------|---------|--------|
+| `0x00-0x4F` | 80 | Basic opcodes (data push, control flow, stack operations) | ✅ Implemented |
+| `0x50-0x8A` | 59 | Extended opcodes (Bitcoin Taproot compatibility + Tondi extensions) | ✅ Implemented |
+| `0x8B-0xA5` | 27 | Numerical operations (arithmetic, comparison) | ✅ Implemented |
+| `0xA6-0xA7` | 2 | **Available for future TSPs** | 🔄 Available |
+| `0xA8-0xB1` | 10 | Cryptographic operations (SHA256, BLAKE3, signature verification) | ✅ Implemented |
+| `0xB2-0xBF` | 14 | **TSP-allocated opcodes** | 🔄 Reserved |
+| `0xC0-0xF9` | 58 | **Available for future TSPs** | 🔄 Available |
+| `0xFA-0xFF` | 6 | System reserved opcodes | ✅ System |
+
+### **TSP-Optcode Allocations (0xB2-0xBF)**
+
+| Opcode | TSP | Feature | Status |
+|--------|-----|---------|--------|
+| `0xB2-0xB4` | [TSP-0007](./TSP-0007.md) | ANYPREVOUT (OP_CHECKSIG_APO, OP_CHECKSIGVERIFY_APO, OP_CHECKSIGADD_APO) | 📋 Draft |
+| `0xB5-0xB7` | [TSP-0008](./TSP-0008.md) | CISA (OP_CHECKSIG_CISA, OP_CHECKSIGVERIFY_CISA, OP_CHECKSIGADD_CISA) | 📋 Draft |
+| `0xB8` | [TSP-0009](./TSP-0009.md) | CheckTemplateVerify (OP_CHECKTEMPLATEVERIFY) | 📋 Draft |
+| `0xB9` | [TSP-0012](./TSP-0012.md) | Channel Factories (OP_CHECKTEMPLATEVERIFY_FACTORY) | 📋 Draft |
+| `0xBA-0xBD` | [TSP-0011](./TSP-0011.md) | MuSig2 (OP_MUSIGKEYAGG, OP_MUSIGNONCEAGG, OP_MUSIGPARTIALSIG, OP_MUSIGVERIFY) | 📋 Draft |
+| `0xBE-0xBF` | - | **Available for future TSPs** | 🔄 Available |
+
+### **Future Opcode Space**
+
+- **Short-term**: 2 opcodes (`0xBE-0xBF`) for urgent fixes or small features
+- **Medium-term**: 2 opcodes (`0xA6-0xA7`) for special functionality
+- **Long-term**: 58 opcodes (`0xC0-0xF9`) for large-scale features and complex protocols
+
+**Total available opcodes**: 62 (2 + 2 + 58)
+
+---
+
 ## ✍️ How to Propose a TSP
 
 1. Fork this repository.
