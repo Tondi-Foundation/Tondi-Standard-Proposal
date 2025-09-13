@@ -1,4 +1,8 @@
-# The Copperfield Plan
+---
+title: The Copperfield Plan
+description: The Copperfield Plan for Tondi blockchain development and ecosystem growth.
+---
+
 ## Tondi as Bitcoin's Proving Ground for Unadopted BIPs
 
 

@@ -1,4 +1,7 @@
-# Tondi Standard Proposals (TSP)
+---
+title: Tondi Standard Proposals (TSP)
+description: The Tondi Standard Proposal (TSP) process defines the evolution of the Tondi blockchain and its ecosystem.
+---
 
 The **Tondi Standard Proposal (TSP)** process defines the evolution of the **Tondi blockchain** and its ecosystem.
 TSPs are the canonical way to propose, discuss, and standardize protocol-level changes, ecosystem conventions, and governance rules within the Tondi network.
