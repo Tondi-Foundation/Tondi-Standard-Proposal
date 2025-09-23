@@ -127,6 +127,13 @@ The Tondi client reserves specific opcode ranges for different purposes. This al
 
 ---
 
+## 📚 Documentation
+
+### OP CODE Reference
+- **[OP_CODE_Summary_Document.md](./OP_CODE_Summary_Document.md)** - Comprehensive documentation of all Tondi opcodes based on client source code analysis. Includes categorized opcodes, KIP-10 transaction introspection features, disabled opcodes for security, and usage examples.
+
+---
+
 ## ✍️ How to Propose a TSP
 
 1. Fork this repository.
