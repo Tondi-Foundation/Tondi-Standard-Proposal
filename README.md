@@ -3,20 +3,22 @@ title: Tondi Standard Proposals (TSP)
 description: The Tondi Standard Proposal (TSP) process defines the evolution of the Tondi blockchain and its ecosystem.
 ---
 
-The **Tondi Standard Proposal (TSP)** process defines the evolution of the **Tondi blockchain** and its ecosystem.
-TSPs are the canonical way to propose, discuss, and standardize protocol-level changes, ecosystem conventions, and governance rules within the Tondi network.
+# Tondi Standard Proposals (TSP)
+
+The **Tondi Standard Proposal (TSP)** process defines the evolution of the **Tondi blockchain** and its ecosystem. TSPs are the canonical way to propose, discuss, and standardize protocol-level changes, ecosystem conventions, and governance rules within the Tondi network.
 
 ---
 
 ## 📌 What is a TSP?
 
 A **TSP (Tondi Standard Proposal)** is a design document that provides information to the Tondi community or describes a new feature for the Tondi chain, its consensus, or its ecosystem.
+
 Each TSP should:
 
-* Provide a **clear technical specification** of the change or feature.
-* Explain the **motivation and rationale** behind it.
-* Describe any **backward compatibility** and **security considerations**.
-* Define the **implementation and activation plan**.
+- Provide a **clear technical specification** of the change or feature
+- Explain the **motivation and rationale** behind it
+- Describe any **backward compatibility** and **security considerations**
+- Define the **implementation and activation plan**
 
 TSPs are the primary mechanism for standardizing the Tondi protocol and ensuring long-term coherence of the ecosystem.
 
@@ -26,12 +28,12 @@ TSPs are the primary mechanism for standardizing the Tondi protocol and ensuring
 
 A TSP moves through several stages in its lifecycle:
 
-1. **Draft** – Initial version, open for feedback.
-2. **Review / Last Call** – Under technical review and community discussion.
-3. **Accepted** – Approved for inclusion in a future Tondi release.
-4. **Implemented** – Implemented in reference clients and/or testnet.
-5. **Final (Active)** – Successfully deployed and active on mainnet.
-6. *(Optional)* **Replaced / Deprecated** – Superseded by another TSP.
+1. **Draft** – Initial version, open for feedback
+2. **Review / Last Call** – Under technical review and community discussion
+3. **Accepted** – Approved for inclusion in a future Tondi release
+4. **Implemented** – Implemented in reference clients and/or testnet
+5. **Final (Active)** – Successfully deployed and active on mainnet
+6. *(Optional)* **Replaced / Deprecated** – Superseded by another TSP
 
 ---
 
@@ -39,13 +41,13 @@ A TSP moves through several stages in its lifecycle:
 
 TSPs are grouped into categories, depending on their scope:
 
-* **Core** – Consensus rules, transaction validation, block structure, cryptography.
-* **Networking** – P2P protocols, mempool, synchronization rules.
-* **Applications** – Proposals for RGB anchoring, Lexum contracts, AMMs, DAOs, etc.
-* **Layer 2 (L2)** – Payment channels, channel factories, off-chain scaling solutions.
-* **Process / Governance** – Processes surrounding the TSP workflow and community rules.
-* **Standards / Interface** – Wallet formats, RPC APIs, contract schemas, interoperability protocols.
-* **Informational** – Research papers, best practices, educational content.
+- **Core** – Consensus rules, transaction validation, block structure, cryptography
+- **Networking** – P2P protocols, mempool, synchronization rules
+- **Applications** – Proposals for RGB anchoring, Lexum contracts, AMMs, DAOs, etc.
+- **Layer 2 (L2)** – Payment channels, channel factories, off-chain scaling solutions
+- **Process / Governance** – Processes surrounding the TSP workflow and community rules
+- **Standards / Interface** – Wallet formats, RPC APIs, contract schemas, interoperability protocols
+- **Informational** – Research papers, best practices, educational content
 
 ---
 
@@ -53,21 +55,23 @@ TSPs are grouped into categories, depending on their scope:
 
 The TSP numbering system follows a **two-phase approach** as defined in [TSP-0004](./TSP-0004.md):
 
-### **Phase 1: Early TSPs (until October 2025)**
-* **Sequential numbering**: `TSP-0001`, `TSP-0002`, `TSP-0003`, etc.
-* Reserved for **Genesis Protocol specifications** and early ecosystem standards
-* Current proposals (TSP-0001 through TSP-0013) follow this format
+### Phase 1: Early TSPs (until October 2025)
 
-### **Phase 2: Categorized TSPs (from October 2025 onward)**
+- **Sequential numbering**: `TSP-0001`, `TSP-0002`, `TSP-0003`, etc.
+- Reserved for **Genesis Protocol specifications** and early ecosystem standards
+- Current proposals (TSP-0001 through TSP-0014) follow this format
+
+### Phase 2: Categorized TSPs (from October 2025 onward)
+
 Proposals will use **category prefixes** + numeric sequence:
 
-* **TSP-Cxxx** → Core/Consensus (transaction validation, PoW, cryptography)
-* **TSP-Nxxx** → Networking (P2P protocols, mempool, synchronization)
-* **TSP-Axxx** → Applications (RGB, Lexum contracts, AMMs, DAOs)
-* **TSP-Lxxx** → Layer 2 (payment channels, scaling solutions)
-* **TSP-Pxxx** → Process/Governance (workflow, voting mechanisms)
-* **TSP-Sxxx** → Standards/Interface (wallet formats, APIs, schemas)
-* **TSP-Ixxx** → Informational (research papers, best practices)
+- **TSP-Cxxx** → Core/Consensus (transaction validation, PoW, cryptography)
+- **TSP-Nxxx** → Networking (P2P protocols, mempool, synchronization)
+- **TSP-Axxx** → Applications (RGB, Lexum contracts, AMMs, DAOs)
+- **TSP-Lxxx** → Layer 2 (payment channels, scaling solutions)
+- **TSP-Pxxx** → Process/Governance (workflow, voting mechanisms)
+- **TSP-Sxxx** → Standards/Interface (wallet formats, APIs, schemas)
+- **TSP-Ixxx** → Informational (research papers, best practices)
 
 This ensures both **historical continuity** and **scalability** for long-term ecosystem growth.
 
@@ -83,13 +87,14 @@ This ensures both **historical continuity** and **scalability** for long-term ec
 | [TSP-0004](./TSP-0004.md) | Definition of the TSP Numbering, Categories, and Lifecycle | ✅ Implemented | Governance/Meta | v2025a |
 | [TSP-0005](./TSP-0005.md) | Biannual Evolution and the Tondi Frontier Network | ✅ Accepted | Governance/Meta | v2025b |
 | [TSP-0006](./TSP-0006.md) | FUN20 — An Inscription-style Fungible Token Standard for Tondi | 🔄 Review | Applications | v2025b |
-| [TSP-0007](./TSP-0007.md) | ANYPREVOUT Support for Eltoo-based Payment Channels (Tondi Flash) | 🔄 Review | Consensus | v2026a |
+| [TSP-0007](./TSP-0007.md) | ANYPREVOUT Support for Rebindable Signatures | 🔄 Review | Consensus | v2026a |
 | [TSP-0008](./TSP-0008.md) | CISA (Cross-Input Signature Aggregation) | 📋 Draft | Consensus | v2026a |
 | [TSP-0009](./TSP-0009.md) | CheckTemplateVerify (CTV) Covenant for Tondi | 📋 Draft | Consensus | v2026b |
 | [TSP-0010](./TSP-0010.md) | Tondi PTLC (Point Time-Locked Contract) Contract Specification | 📋 Draft | Standards Track | v2026a |
 | [TSP-0011](./TSP-0011.md) | Native MuSig2 Multi-Signatures | 📋 Draft | Consensus | v2026a |
 | [TSP-0012](./TSP-0012.md) | Channel Factories for Scalable Off-Chain Payment Networks | 📋 Draft | Layer 2 (L2) | v2026b |
-|| [TSP-0013](./TSP-0013.md) | GhostDAG Sorting Optimization Proposal (Local Approximation and Concurrent Data Structures) | 📋 Draft | Core | v2026b |
+| [TSP-0013](./TSP-0013.md) | GhostDAG Sorting Optimization Proposal (Local Approximation and Concurrent Data Structures) | 📋 Draft | Core | v2026b |
+| [TSP-0014](./TSP-0014.md) | Tondi-Flash: Eltoo Channels | 📋 Draft | Consensus / Layer-2 | v2026a |
 
 ---
 
@@ -97,7 +102,7 @@ This ensures both **historical continuity** and **scalability** for long-term ec
 
 The Tondi client reserves specific opcode ranges for different purposes. This allocation ensures compatibility with Bitcoin Taproot while providing space for Tondi-specific features.
 
-### **Opcode Range Overview**
+### Opcode Range Overview
 
 | Range | Count | Purpose | Status |
 |-------|-------|---------|--------|
@@ -110,7 +115,7 @@ The Tondi client reserves specific opcode ranges for different purposes. This al
 | `0xC0-0xF9` | 58 | **Available for future TSPs** | 🔄 Available |
 | `0xFA-0xFF` | 6 | System reserved opcodes | ✅ System |
 
-### **TSP-Optcode Allocations (0xB2-0xBF)**
+### TSP-Opcode Allocations (0xB2-0xBF)
 
 | Opcode | TSP | Feature | Status |
 |--------|-----|---------|--------|
@@ -121,7 +126,7 @@ The Tondi client reserves specific opcode ranges for different purposes. This al
 | `0xBA-0xBD` | [TSP-0011](./TSP-0011.md) | MuSig2 (OP_MUSIGKEYAGG, OP_MUSIGNONCEAGG, OP_MUSIGPARTIALSIG, OP_MUSIGVERIFY) | 📋 Draft |
 | `0xBE-0xBF` | - | **Available for future TSPs** | 🔄 Available |
 
-### **Future Opcode Space**
+### Future Opcode Space
 
 - **Short-term**: 2 opcodes (`0xBE-0xBF`) for urgent fixes or small features
 - **Medium-term**: 2 opcodes (`0xA6-0xA7`) for special functionality
@@ -133,18 +138,19 @@ The Tondi client reserves specific opcode ranges for different purposes. This al
 
 ## 📚 Documentation
 
-### OP CODE Reference
+### OP Code Reference
+
 - **[OP_CODE_Summary_Document.md](./OP_CODE_Summary_Document.md)** - Comprehensive documentation of all Tondi opcodes based on client source code analysis. Includes categorized opcodes, KIP-10 transaction introspection features, disabled opcodes for security, and usage examples.
 
 ---
 
 ## ✍️ How to Propose a TSP
 
-1. Fork this repository.
-2. Create a new file under `/tsp` named `tsp-xxxx.md`, where `xxxx` is your draft number.
-3. Write the TSP using the official [TSP Template](./TSP-TEMPLATE.md).
-4. Submit a Pull Request.
-5. The TSP editors and the community will review and assign an official number.
+1. Fork this repository
+2. Create a new file under `/tsp` named `tsp-xxxx.md`, where `xxxx` is your draft number
+3. Write the TSP using the official [TSP Template](./TSP-TEMPLATE.md)
+4. Submit a Pull Request
+5. The TSP editors and the community will review and assign an official number
 
 ---
 
