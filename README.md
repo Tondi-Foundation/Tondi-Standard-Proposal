@@ -53,7 +53,7 @@ The TSP numbering system follows a **two-phase approach** as defined in [TSP-000
 ### **Phase 1: Early TSPs (until October 2025)**
 * **Sequential numbering**: `TSP-0001`, `TSP-0002`, `TSP-0003`, etc.
 * Reserved for **Genesis Protocol specifications** and early ecosystem standards
-* Current proposals (TSP-0001 through TSP-0012) follow this format
+* Current proposals (TSP-0001 through TSP-0013) follow this format
 
 ### **Phase 2: Categorized TSPs (from October 2025 onward)**
 Proposals will use **category prefixes** + numeric sequence:
@@ -86,6 +86,7 @@ This ensures both **historical continuity** and **scalability** for long-term ec
 | [TSP-0010](./TSP-0010.md) | Tondi PTLC (Point Time-Locked Contract) Contract Specification | 📋 Draft | Standards Track | v2026a |
 | [TSP-0011](./TSP-0011.md) | Native MuSig2 Multi-Signatures | 📋 Draft | Consensus | v2026a |
 | [TSP-0012](./TSP-0012.md) | Channel Factories for Scalable Off-Chain Payment Networks | 📋 Draft | Layer 2 (L2) | v2026b |
+|| [TSP-0013](./TSP-0013.md) | GhostDAG Sorting Optimization Proposal (Local Approximation and Concurrent Data Structures) | 📋 Draft | Core | v2026b |
 
 ---
 
